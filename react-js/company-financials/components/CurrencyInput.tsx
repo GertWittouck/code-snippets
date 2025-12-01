@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { type Control, type FieldValues, type Path, useController } from 'react-hook-form';
 import { NumericFormat } from 'react-number-format';
 
-import { useTranslation } from '@fruugo/i18n';
+import { useTranslation } from '@company/i18n';
 
 import { useResolvedLocale } from '../../../hooks/useResolvedLocale.ts';
 import { getCurrencyDP } from '../../../onboarding/utils/getCurrencyDP.ts';
