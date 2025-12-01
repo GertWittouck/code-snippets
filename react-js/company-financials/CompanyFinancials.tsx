@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 
-import { useTranslation } from '@fruugo/i18n';
+import { useTranslation } from '@company/i18n';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 import { useRHFAnalytics } from '../../analytics/hooks/useRHFAnalytics.ts';
