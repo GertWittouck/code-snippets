@@ -1,8 +1,8 @@
 import { useEffect, useMemo } from 'react';
 import { type Control, type FieldValues, type Path, type PathValue, useFormContext } from 'react-hook-form';
 
-import type { Option } from '@fruugo/components';
-import { useTranslation } from '@fruugo/i18n';
+import type { Option } from '@company/components';
+import { useTranslation } from '@company/i18n';
 import { useQuery } from '@tanstack/react-query';
 
 import { fetchCurrencies } from '../../../api/meta.ts';
